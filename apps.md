@@ -16,11 +16,10 @@
 brew install neovim tmux
 brew install --cask alacritty
 
-# cli
+# terminal
 brew install yazi
 brew install ripgrep
 brew install lazygit
-brew install bat
 brew install neofetch
 brew install htop
 
@@ -42,6 +41,16 @@ brew install --cask zed
 brew install --cask inkscape
 brew install --cask blender
 brew install --cask deepl
+brew install anki
+
+### devops
+brew install kubectl
+brew install terraform
+brew install ansible
+brew install ansible-creator
+brew install k9s
+brew install iperf3
+brew install trivy
 
 ### Google
 brew install --cask google-drive
