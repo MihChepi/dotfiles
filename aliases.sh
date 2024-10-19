@@ -6,12 +6,7 @@ alias hl='homelab'
 alias lab='cd ~/projects/github/lab/'
 alias dotfiles='cd ~/dotfiles/'
 alias note="$EDITOR ~/notes/."
-
-alias -g '...'='../..'
-alias -g '....'='../../..'
-alias -g '.....'='../../../..'
-alias -g '......'='../../../../..'
-alias -g '.......'='../../../../../..'
+alias hg="history | grep"
 
 # Terraform
 alias tf="terraform"
@@ -26,6 +21,9 @@ alias k="kubectl"
 alias kgp="kubectl get pods"
 alias kgd="kubectl get deploy"
 alias kgs="kubectl get services"
+alias kgn="kubectl get namespace"
+alias klog="kubectl logs"
+alias kd="kubectl describe"
 
 # tmux
 alias tma="tmux attach"
